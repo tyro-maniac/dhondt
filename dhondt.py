@@ -1,3 +1,13 @@
+###################################################################################################################################
+### Thank you for downloading the calculator! It works purely inside of the command line. It will ask you to                    ###
+### input a party name, then it's vote count/percentage, and so on until you type "done", rather than a new party's name.       ###
+### Make sure to run it inside of a code editor like Visual Studio Code, running it on it's own will cause it to immediately    ###
+### close upon finishing the calculation!                                                                                       ###
+###                                                                                                                             ###
+### Enjoy and have fun creating!                                                                                                ###        
+### -Tyro                                                                                                                       ### 
+###################################################################################################################################
+
 def dhondt(votes, total_seats):
     seats = {party: 0 for party in votes}
 
